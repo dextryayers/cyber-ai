@@ -1,0 +1,8 @@
+{
+  "name": "CyberSentient - AI Pentest Hub",
+  "description": "A comprehensive AI-powered penetration testing assistant featuring multi-model support, real-time camera analysis for social engineering defense, and automated vulnerability assessment generation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
