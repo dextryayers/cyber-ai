@@ -77,8 +77,10 @@ Catatan: Vite sudah memetakan `GEMINI_API_KEY` via `define` di `vite.config.ts`.
 npm install -g pnpm # opsional, jika ingin pakai pnpm
 
 # 1) Clone repo
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/dextryayers/cyber-ai.git
+
+# 1.1) Masuk dir
+cd cyber-ai
 
 # 2) Install dep
 npm install
