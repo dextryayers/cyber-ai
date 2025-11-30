@@ -72,7 +72,16 @@ Catatan: Vite sudah memetakan `GEMINI_API_KEY` via `define` di `vite.config.ts`.
 ## Menjalankan Secara Lokal
 
 ```bash
+# Clone Terlebih Dahulu
+git clone https://github.com/dextryayers/cyber-ai.git
+
+# Masuk Dir
+cd cyber-ai
+
+#Install Depedensi
 npm install
+
+#Run localhost
 npm run dev
 ```
 
