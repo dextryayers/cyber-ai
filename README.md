@@ -8,10 +8,12 @@
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Tasks%20Vision-00E676?logo=google&logoColor=white)](https://developers.google.com/mediapipe)
 [![React Markdown](https://img.shields.io/badge/Markdown-Renderer-000000?logo=markdown&logoColor=white)](https://github.com/remarkjs/react-markdown)
 
+🔥 Live Demo: https://chatbot.haniipp.my.id
+
 Interface pentest modern dengan pengalaman “cyberpunk console”, mendukung chat AI, audit kode, generator perintah red team, serta analisis visual via kamera.
 
 
-## Preview
+## Preview 👀
 
 - UI terminal-like dengan sidebar modul, streaming response, dan attachment gambar.
 - Tampilan “scanline” + grid latar bergaya cyber.
@@ -19,7 +21,7 @@ Interface pentest modern dengan pengalaman “cyberpunk console”, mendukung ch
 (Sisipkan screenshot/gif di sini setelah tersedia)
 
 
-## Fitur
+## Fitur ✨
 
 - **General Chat**: Asisten keamanan siber dengan jawaban terstruktur Markdown.
 - **Code Analysis (SAST-like)**: Template output berisi vulnerability, severity, lokasi, skenario, dan patch.
@@ -31,7 +33,7 @@ Interface pentest modern dengan pengalaman “cyberpunk console”, mendukung ch
 - **Settings Panel**: Pengaturan model/API key.
 
 
-## Tech Stack
+## Tech Stack 🧰
 
 - **React 19** + **TypeScript**
 - **Vite 6** dev server dan build
@@ -41,13 +43,13 @@ Interface pentest modern dengan pengalaman “cyberpunk console”, mendukung ch
 - **react-markdown** untuk render konten
 
 
-## Persyaratan
+## Persyaratan 📦
 
 - Node.js 18+ (disarankan LTS)
 - Koneksi internet (beberapa lib via CDN; model AI butuh akses jaringan)
 
 
-## Konfigurasi & API Key
+## Konfigurasi & API Key 🔑
 
 Aplikasi menggunakan Gemini sebagai engine utama.
 
@@ -69,19 +71,20 @@ GROK_API_KEY=YOUR_GROK_KEY
 Catatan: Vite sudah memetakan `GEMINI_API_KEY` via `define` di `vite.config.ts`.
 
 
-## Menjalankan Secara Lokal
+## Menjalankan Secara Lokal 🚀
 
 ```bash
-# Clone Terlebih Dahulu
-git clone https://github.com/dextryayers/cyber-ai.git
+npm install -g pnpm # opsional, jika ingin pakai pnpm
 
-# Masuk Dir
-cd cyber-ai
+# 1) Clone repo
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
 
-#Install Depedensi
+# 2) Install dep
 npm install
+# atau: pnpm install
 
-#Run localhost
+# 3) Jalankan dev server
 npm run dev
 ```
 
@@ -107,7 +110,7 @@ npm run dev
 ```
 
 
-## Penggunaan Singkat
+## Penggunaan Singkat 🧭
 
 - Ketik prompt di input, tekan Enter untuk kirim.
 - Pilih modul di sidebar: Terminal, Code Audit, Bio‑Scan, Red Team Ops.
@@ -116,7 +119,7 @@ npm run dev
 - Gunakan tombol Export Log untuk menyimpan riwayat.
 
 
-## Troubleshooting
+## Troubleshooting 🛠️
 
 - **Tidak ada respons/timeout**: Periksa koneksi internet dan `GEMINI_API_KEY`.
 - **Stream terhenti**: Coba ulangi prompt; ada retry/backoff internal sampai 3x.
@@ -124,13 +127,13 @@ npm run dev
 - **Styling tidak muncul**: Pastikan CDN Tailwind & Font Awesome termuat di `index.html`.
 
 
-## Etika & Legal
+## Etika & Legal ⚖️
 
 - Gunakan untuk pembelajaran dan pentest dengan izin tertulis.
 - Hindari penyalahgunaan, patuhi hukum dan regulasi setempat.
 
 
-## Kredit
+## Kredit 👤
 
 Dikembangkan oleh hanif abdurrohim (Indonesia).
 
